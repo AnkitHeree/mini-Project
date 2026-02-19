@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:  #f4f4f4;
+     background-image: url("img.jpeg");
+     background-size: cover;
+     background-position: center;
+  
+}
+
+/*Header Babua*/
+
+header{
+    top: 0px;
+    position: sticky;
+    height: 50px;
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+/*Hero Babua */
+
+.hero{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.644)),
+    url();
+
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.properties{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url();
+
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.about{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url();
+
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.contact{
+     height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url();
+
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.hero h1{
+    font-size: 40px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: orange;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* section ha ha */
+
+section{
+    padding: 60px;
+    text-align: center;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*footer Babua*/
+
+footer{
+    background: #222;
+    columns: white;
+    text-align: center;
+    padding: 15px;
+}
